@@ -1,4 +1,5 @@
-from .appliances import Appliance
+from ..appliance import Appliance
+
 
 def Dryer(Appliance):
 
@@ -7,6 +8,6 @@ def Dryer(Appliance):
 
     def dry_clothes(setting="low"):
         if setting != "low":
-          print("Please allow 40 minutes for you clothes to come out crispy.")
+            print("Please allow 40 minutes for you clothes to come out crispy.")
         else:
-          print("Please allow 40 minutes for your clothes to come out soggy.")
+            print("Please allow 40 minutes for your clothes to come out soggy.")
